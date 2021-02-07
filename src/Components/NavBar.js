@@ -24,13 +24,17 @@ const Navbar=() => {
   }
   return (
     <header className={x.join(" ")}>
+
+        <div className = "logo animate__animated animate__fadeInUp animate__delay-1s">
+          <img className = "logoimg"></img>
+        </div>
         
-        <nav className="navigation">
+        <div className="navigation animate__animated animate__fadeInUp animate__delay-1s">
             <div className = "navElements"><a className = "navA" href="#post1">Home</a></div>
             <div className = "navElements"><a className = "navA" href="#post1">About</a></div>
             <div className = "navElements"><a className = "navA" href="#post1">Skills</a></div>
-            <div className = "navElements"><a className = "navA" href="#post1">Projects</a></div>
-        </nav>
+            <div><a className = "navA" href="#post1">Projects</a></div>
+        </div>
 
     </header>
   )

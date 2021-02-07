@@ -1,0 +1,15 @@
+.aboutMe
+{
+    display: flex;
+    flex-direction: row;
+    background-color: #c4c4c4;
+}
+
+
+.titleName
+{
+    padding: 15px;
+    border-style: solid;
+    border-color: black;
+    color: black;
+}
