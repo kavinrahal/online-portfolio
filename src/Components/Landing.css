@@ -1,18 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
-@keyframes spin {
-    0% {
-        transform:rotate(0deg);
-    }
-    50% {
-        transform:rotate(360deg);
-    }
-    100%
-    {
-        opacity: 0;
-    }
-}
-
 @keyframes flickerAnimation {
     0%   { opacity:1; }
     50%  { opacity:0; }
@@ -20,58 +7,79 @@
   }
 
 @keyframes move1 {
+
     0%{
-        top: auto;
-        bottom: auto;
-        right: auto;
-        left: auto;
+        bottom: 50%;
+        right: 50%;
     }
 
-    to{
-        bottom: 0;
-        right: 0;
+    50%
+    {
+        bottom: 50%;
+        right: 50%;
     }
+
+    100%
+    {
+        bottom: 0px;
+        right: 0px;
+    }
+
 }
 
 @keyframes move2 {
-    from{
-        top: auto;
-        bottom: auto;
-        right: auto;
-        left: auto;
+
+    0%{
+        top: 50%;
+        left: 50%;
     }
 
-    to{
-        top: 0;
-        left: 0;
+    50%
+    {
+        top: 50%;
+        left: 50%;
     }
+
+    100%{
+        top: 0px;
+        left: 0px;
+    }
+
 }
 
 @keyframes move3 {
-    from{
-        top: auto;
-        bottom: auto;
-        right: auto;
-        left: auto;
+    0%{
+        top: 50%;
+        right: 50%;
     }
 
-    to{
-        top: 0;
-        right: 0;
+    50%
+    {
+        top: 50%;
+        right: 50%;
+    }
+
+    100%{
+        top: 0px;
+        right: 0px;
     }
 }
 
 @keyframes move4 {
-    from{
-        top: auto;
-        bottom: auto;
-        right: auto;
-        left: auto;
+    0%{
+        bottom: 50%;
+        left: 50%;
     }
 
-    to{
-        bottom: 0;
-        left: 0;
+    50%
+    {
+        bottom: 50%;
+        left: 50%;
+    }
+
+    100%{
+        bottom: 0px;
+        left: 0px;
     }
 }
 
@@ -146,7 +154,7 @@ label{
     height: 15px;
     padding-right: 30px;
     padding-bottom: 30px;
-    animation: move1 3s ease-out;
+    animation: move1 2s linear;
 }
 
 .plusSignL
@@ -158,7 +166,7 @@ label{
     height: 15px;
     padding-left: 30px;
     padding-top: 90px;
-    animation: move2 3s ease-out;
+    animation: move2 2s linear;
 }
 
 .plusSignRT
@@ -170,7 +178,7 @@ label{
     padding-top: 90px;
     width: 15px;
     height: 15px;
-    animation: move3 3s ease-out;
+    animation: move3 2s linear;
 }
 
 .plusSignLB
@@ -182,7 +190,7 @@ label{
     padding-bottom: 30px;
     width: 15px;
     height: 15px;
-    animation: move4 3s ease-out;
+    animation: move4 2s linear;
 }
 
 .xSign{
