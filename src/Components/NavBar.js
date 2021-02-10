@@ -25,11 +25,11 @@ const Navbar=() => {
   return (
     <header className={x.join(" ")}>
 
-        <div className = "logo animate__animated animate__fadeInUp animate__delay-3s">
+        <div className = "logo animate__animated animate__fadeInUp animate__delay-2s">
           <img className = "logoimg"></img>
         </div>
         
-        <div className="navigation animate__animated animate__fadeInUp animate__delay-3s">
+        <div className="navigation animate__animated animate__fadeInUp animate__delay-2s">
             <div className = "navElements"><a className = "navA" href="#post1">Home</a></div>
             <div className = "navElements"><a className = "navA" href="#post1">About</a></div>
             <div className = "navElements"><a className = "navA" href="#post1">Skills</a></div>

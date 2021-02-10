@@ -15,8 +15,8 @@ function Landing(){
             </div>
 
             <div className = "column" id  = "rightSide">
-                <div className = "name animate__animated animate__fadeInUp animate__delay-3s"><h1>KAVINDYA ABEYSINGHE</h1></div>
-                <div className = "frontend animate__animated animate__fadeInUp animate__delay-3s"><label>Front-End Developer/UI Designer</label></div>
+                <div className = "name animate__animated animate__fadeInUp animate__delay-2s"><h1>KAVINDYA ABEYSINGHE</h1></div>
+                <div className = "frontend animate__animated animate__fadeInUp animate__delay-2s"><label>Front-End Developer/UI Designer</label></div>
             </div>
 
             <div className = "plusSignL"><div className = "xSign"><Icon icon={heavyMultiplicationX} color="orange" rotate="90deg" /></div></div>

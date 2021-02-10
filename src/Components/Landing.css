@@ -154,7 +154,7 @@ label{
     height: 15px;
     padding-right: 30px;
     padding-bottom: 30px;
-    animation: move1 2s linear;
+    animation: move1 2s cubic-bezier(.25,.1,.25,1);
 }
 
 .plusSignL
@@ -166,7 +166,7 @@ label{
     height: 15px;
     padding-left: 30px;
     padding-top: 90px;
-    animation: move2 2s linear;
+    animation: move2 2s cubic-bezier(.25,.1,.25,1);
 }
 
 .plusSignRT
@@ -178,7 +178,7 @@ label{
     padding-top: 90px;
     width: 15px;
     height: 15px;
-    animation: move3 2s linear;
+    animation: move3 2s cubic-bezier(.25,.1,.25,1);
 }
 
 .plusSignLB
@@ -190,7 +190,7 @@ label{
     padding-bottom: 30px;
     width: 15px;
     height: 15px;
-    animation: move4 2s linear;
+    animation: move4 2s cubic-bezier(.25,.1,.25,1);
 }
 
 .xSign{
