@@ -194,5 +194,5 @@ label{
 }
 
 .xSign{
-    animation: flickerAnimation .5s linear 2;
+    animation: flickerAnimation .15s ease-in 5;
 }

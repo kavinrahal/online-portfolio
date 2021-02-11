@@ -1,15 +1,86 @@
-.aboutMe
-{
+.aboutMe{
     display: flex;
     flex-direction: row;
-    background-color: #c4c4c4;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin-top: 50px;
+    width: 100%;
+    background: black;
 }
 
 
-.titleName
+.column
 {
-    padding: 15px;
-    border-style: solid;
-    border-color: black;
-    color: black;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    color: white;
+}
+
+#leftSide
+{
+    display: flex;
+    height: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutMeText{
+    color: white;
+    align-self: center;
+    justify-self: center;
+    font-size: 40px;
+    font-weight: 900;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: lighter;
+    margin-bottom: -20px;
+}
+
+.aboutImg{
+    content: url('../clip2.png');
+    width: 160px;
+    height: 160px;
+}
+
+.rightSide{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutText{
+    width: 50%;
+}
+
+.line{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100%;
+    align-self: flex-end;
+    margin-top: 10px;
+}
+
+.deets{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-self: flex-start;
+}
+
+.vertLine{
+    background-color: #909090;
+    border: none;
 }
