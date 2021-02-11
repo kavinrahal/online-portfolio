@@ -16,7 +16,7 @@ function Landing(){
         </head>
         <script src="bower_components/aos/dist/aos.js"></script> 
             <div className = "column" id = "leftSide">
-                
+                <img className = "myPic"></img>
             </div>
 
             <div className = "column" id  = "rightSide">

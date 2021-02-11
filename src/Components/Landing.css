@@ -196,3 +196,10 @@ label{
 .xSign{
     animation: flickerAnimation .15s ease-in 5;
 }
+
+.myPic{
+    content: url('../MOSHED-2021-2-11-11-54-16.gif');
+    width: 500px;
+    height: 500px;
+    margin-left: 30px;
+}
