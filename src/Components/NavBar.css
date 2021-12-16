@@ -8,9 +8,12 @@
     justify-content: space-between;
     align-items: center;
     justify-content: flex-end;
-    background-color: black;
+    background: black;
     padding-bottom: 30px;
     padding-top: 30px;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
 }
 
 .scrolled{
@@ -35,6 +38,7 @@
     text-decoration: none;
     font-weight: lighter;
     padding: 5px;
+    background: black;
     transition: background-color 0.5s ease;
 }
 

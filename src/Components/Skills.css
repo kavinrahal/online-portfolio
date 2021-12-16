@@ -1,0 +1,89 @@
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+.column
+{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    color: white;
+}
+
+.skills{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin-top: 30px;
+    width: 100%;
+    background: black;
+}
+
+.title{
+    color: white;
+}
+
+.decorated{
+    overflow: hidden;
+    text-align: center;
+    color: white;
+}
+.decorated > span{
+   position: relative;
+   display: inline-block;
+}
+.decorated > span:before, .decorated > span:after{
+   content: '';
+   position: absolute;
+   top: 50%;
+   border-bottom: 2px solid;
+   border-color: white;
+   width: 100%;
+   margin: 0 20px;
+}
+.decorated > span:before{
+   right: 100%;
+}
+.decorated > span:after{
+   left: 100%;
+}
+
+.skillsBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 70%;
+    align-self: center;
+}
+
+.row{
+    display: flex;
+    justify-content: space-around;
+}
+
+.reactImg{
+    width: 100px;
+}
+
+.reactImgRotate{
+    width: 100px;
+    animation:spin 6s linear infinite;
+}
+
+.react{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 30px;
+}
+
+.angular{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+}
+.skillTitle{
+    color: white;
+}
