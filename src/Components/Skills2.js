@@ -10,6 +10,7 @@ import mysql from '../sql.png';
 import android from '../android-logo.svg';
 import git from '../git.png';
 import photoshop from '../photoshop.png';
+import express from '../express.png';
 
 function Skills2(){
     AOS.init();
@@ -20,15 +21,15 @@ function Skills2(){
             </head>
             <script src="bower_components/aos/dist/aos.js"></script> 
             <div className = "column" id = "leftSide">
-                <div className = "skillsBox">
+                <div className = "skillsBox" data-aos="fade-up" data-aos-duration="1000">
                     <div className = "row">
                         <div className = "react">
                             <img className = "reactImgRotate" src = {reactImg}></img>
                             <div className = "skillTitle">React</div>
                         </div>
                         <div className = "react">
-                            <img className = "reactImg" src = {angularImg}></img>
-                            <div className = "skillTitle">Angular</div>
+                            <img className = "reactImg" src = {express}></img>
+                            <div className = "skillTitle">Express</div>
                         </div>
                         <div className = "react">
                             <img className = "reactImg" src = {nativeImg}></img>
