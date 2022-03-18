@@ -64,9 +64,12 @@
     width: 100px;
 }
 
+.androidImg{
+    width: 100px;
+}
+
 .reactImgRotate{
     width: 100px;
-    animation:spin 6s linear infinite;
 }
 
 .react{

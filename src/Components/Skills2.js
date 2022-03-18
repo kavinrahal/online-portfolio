@@ -1,13 +1,13 @@
 import './AboutMe.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import reactImg from '../logo512.png';
+import reactImg from '../KAvin react.png';
 import angularImg from '../angular.png';
 import nativeImg from '../react-native.png';
-import java from '../java.png';
+import figma from '../figma.png';
 import python from '../python.png';
 import mysql from '../sql.png';
-import android from '../android-logo.svg';
+import android from '../android.png';
 import git from '../git.png';
 import photoshop from '../photoshop.png';
 import express from '../express.png';
@@ -21,8 +21,8 @@ function Skills2(){
             </head>
             <script src="bower_components/aos/dist/aos.js"></script> 
             <div className = "column" id = "leftSide">
-                <div className = "skillsBox" data-aos="fade-up" data-aos-duration="1000">
-                    <div className = "row">
+                <div className = "skillsBox">
+                    <div className = "row" data-aos="fade-up" data-aos-duration="1000">
                         <div className = "react">
                             <img className = "reactImgRotate" src = {reactImg}></img>
                             <div className = "skillTitle">React</div>
@@ -37,10 +37,10 @@ function Skills2(){
                         </div>
                     </div>
 
-                    <div className = "row">
+                    <div className = "row" data-aos="fade-up" data-aos-duration="1000">
                         <div className = "react">
-                            <img className = "reactImg" src = {java}></img>
-                            <div className = "skillTitle">Java</div>
+                            <img className = "reactImg" src = {figma}></img>
+                            <div className = "skillTitle">Figma</div>
                         </div>
                         <div className = "react">
                             <img className = "reactImg" src = {python}></img>
@@ -52,9 +52,9 @@ function Skills2(){
                         </div>
                     </div>
 
-                    <div className = "row">
+                    <div className = "row" data-aos="fade-up" data-aos-duration="1000">
                         <div className = "react">
-                            <img className = "reactImg" src = {android}></img>
+                            <img className = "androidImg" src = {android}></img>
                             <div className = "skillTitle">Android</div>
                         </div>
                         <div className = "react">
