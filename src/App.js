@@ -1,7 +1,9 @@
 import './App.css';
 import AboutMe from './Components/AboutMe';
+import Experience from './Components/Experience';
 import Landing from './Components/Landing';
 import NavBar from './Components/NavBar';
+import Projects from './Components/Projects';
 import Skills from './Components/Skills';
 import Skills2 from './Components/Skills2';
 
@@ -12,6 +14,8 @@ function App() {
       <Landing/>
       <AboutMe/>
       <Skills2/>
+      <Projects />
+      <Experience />
     </div>
     
   );
