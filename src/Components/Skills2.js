@@ -1,8 +1,8 @@
 import './AboutMe.css';
+import './Skills.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import reactImg from '../KAvin react.png';
-import angularImg from '../angular.png';
 import nativeImg from '../react-native.png';
 import figma from '../figma.png';
 import python from '../python.png';
@@ -15,7 +15,7 @@ import express from '../express.png';
 function Skills2(){
     AOS.init();
     return(
-        <div className = "aboutMe">
+        <div className = "skills">
             <head>
                 <link rel="stylesheet" href="bower_components/aos/dist/aos.css" />
             </head>

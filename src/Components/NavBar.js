@@ -1,4 +1,5 @@
 import React,{useEffect} from 'react';
+import {Link} from 'react-scroll'
 import './NavBar.css';
 
 const Navbar=() => {
@@ -10,10 +11,11 @@ const Navbar=() => {
         </div>
         
         <div className="navigation animate__animated animate__fadeInUp animate__delay-2s">
-            <div className = "navElements"><a className = "navA" href="#post1">Home</a></div>
-            <div className = "navElements"><a className = "navA" href="#post1">About</a></div>
-            <div className = "navElements"><a className = "navA" href="#post1">Skills</a></div>
-            <div><a className = "navA" href="#post1">Projects</a></div>
+            <div className = "navElements"><Link className = "navA" to='landing' spy={true} smooth={true}>Home</Link></div>
+            <div className = "navElements"><Link className = "navA" to='aboutMe'spy={true} smooth={true}>About</Link></div>
+            <div className = "navElements"><Link className = "navA" to='skills' spy={true} smooth={true}>Skills</Link></div>
+            <div className = "navElements"><Link className = "navA" to='projects' spy={true} smooth={true}>Projects</Link></div>
+            <div className = "navElements"><Link className = "navA" to='experience' spy={true} smooth={true}>Experience</Link></div>
         </div>
 
     </div>

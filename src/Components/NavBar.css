@@ -10,7 +10,6 @@
     justify-content: flex-end;
     background: black;
     background-color: rgb(14, 14, 14);
-    /* background-image: url("https://www.transparenttextures.com/patterns/carbon-fibre.png"); */
     padding-bottom: 30px;
     padding-top: 30px;
     position: sticky;
@@ -29,7 +28,6 @@
     font-family: 'Bebas Neue', cursive;
     background: black;
     background-color: rgb(14, 14, 14);
-    /* background-image: url("https://www.transparenttextures.com/patterns/carbon-fibre.png"); */
 }
 
 .navA{
@@ -38,15 +36,13 @@
     text-decoration: none;
     font-weight: lighter;
     padding: 5px;
-    /* background: black; */
     background-color: rgb(14, 14, 14);
-    /* background-image: url("https://www.transparenttextures.com/patterns/carbon-fibre.png"); */
     transition: background-color 0.5s ease;
 }
 
 .navA:hover{
-    background: orange;
-    color: black;
+    border: #ffa500;
+    border-style: solid;
 }
 
 .navElements{
@@ -60,5 +56,4 @@
     height: 40px;
     padding-left: 30px;
     background-color: rgb(14, 14, 14);
-    /* background-image: url("https://www.transparenttextures.com/patterns/carbon-fibre.png"); */
 }

@@ -1,10 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
+
 body{
   display: flex;
   flex-direction: column;
   height: 100vh;
   width: 100%;
   background-color: #0e0e0e;
-  /* background-image: url("https://www.transparenttextures.com/patterns/carbon-fibre.png"); */
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 17px;
 }
 
 
