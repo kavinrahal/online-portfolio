@@ -3,6 +3,7 @@ import { Icon, InlineIcon } from '@iconify/react';
 import heavyMultiplicationX from '@iconify-icons/emojione-monotone/heavy-multiplication-x';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import TypeAnimation from 'react-type-animation';
 
 
 function Landing(){
@@ -21,7 +22,21 @@ function Landing(){
 
             <div className = "column" id  = "rightSide">
                 <div className = "name animate__animated animate__fadeInUp animate__delay-2s" data-aos="fade-up" data-aos-duration="1000"><h1>KAVINDYA ABEYSINGHE</h1></div>
-                <div className = "frontend animate__animated animate__fadeInUp animate__delay-2s" data-aos="fade-up" data-aos-duration="1000"><label>Front-End Developer/UI Designer</label></div>
+                <div className = "frontend animate__animated animate__fadeInUp animate__delay-2s" data-aos="fade-up" data-aos-duration="1000">
+                    <TypeAnimation
+                        cursor={true}
+                        sequence={[
+                        'Front-End Developer',
+                        2000,
+                        'Web Developer',
+                        2000,
+                        'UI/UX Designer',
+                        2000,
+                        ]}
+                        wrapper="label"
+                        repeat={Infinity}
+                    />
+                </div>
             </div>
 
             <div className = "plusSignL"><div className = "xSign"><Icon icon={heavyMultiplicationX} color="orange" rotate="90deg" /></div></div>

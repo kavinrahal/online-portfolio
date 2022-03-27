@@ -25,39 +25,33 @@ function Projects(){
                 <div className = "projectRow">
                     <div data-aos="fade-up" data-aos-duration="1000" className = "projectText">
                         <h2>Vibe Check</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nunc erat, auctor et dictum vel, 
-                        aliquet at lorem. Sed sit amet est fringilla, molestie eros at, auctor mauris. Integer id malesuada ligula. 
-                        In et porttitor libero. Donec velit felis, eleifend quis lacinia id, elementum sed felis. Pellentesque finibus 
-                        turpis ante, sit amet pellentesque lectus dapibus vel. Vestibulum sagittis, leo sit amet pharetra maximus, sem arcu 
-                        semper dui, at dictum justo dui eget tortor. Maecenas dapibus sapien ut ex viverra interdum. Aenean dictum ipsum eu 
-                        lacus facilisis, eu aliquet lorem convallis.</p>
+                        <p>A Social Network for university students to interact with each other during the COVID-19 pandemic. 
+                        Students can sign up and login to share their thoughts and share pictures alongside. Furthermore, just 
+                        like any social network, users can like and dislike other users’ posts and follow and unfollow other users
+                         as well. </p>
+
                         <br></br>
 
                         <h2>CarShareScheme</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nunc erat, auctor et dictum vel, 
-                        aliquet at lorem. Sed sit amet est fringilla, molestie eros at, auctor mauris. Integer id malesuada ligula. 
-                        In et porttitor libero. Donec velit felis, eleifend quis lacinia id, elementum sed felis. Pellentesque finibus 
-                        turpis ante, sit amet pellentesque lectus dapibus vel. Vestibulum sagittis, leo sit amet pharetra maximus, sem arcu 
-                        semper dui, at dictum justo dui eget tortor. Maecenas dapibus sapien ut ex viverra interdum. Aenean dictum ipsum eu 
-                        lacus facilisis, eu aliquet lorem convallis.</p>
+                        <p>Car renting made ever so easy. CarShareScheme was made as part of my Final Year Project, where I was in charge of 
+                        designing and developing the front end of the Web Application. CarShareScheme allows users to book a vehicle within their 
+                        vicinity, based on their liking and get directions to it using Google maps. Vehicles can be used for the period they have booked it 
+                        for, after which they must return the vehicle by stopping the vehicle in a safe area and ending their trip in order to make their 
+                        payment through a medium they prefer.</p>
                         <br></br>
 
                         <h2>AGME</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nunc erat, auctor et dictum vel, 
-                        aliquet at lorem. Sed sit amet est fringilla, molestie eros at, auctor mauris. Integer id malesuada ligula. 
-                        In et porttitor libero. Donec velit felis, eleifend quis lacinia id, elementum sed felis. Pellentesque finibus 
-                        turpis ante, sit amet pellentesque lectus dapibus vel. Vestibulum sagittis, leo sit amet pharetra maximus, sem arcu 
-                        semper dui, at dictum justo dui eget tortor. Maecenas dapibus sapien ut ex viverra interdum. Aenean dictum ipsum eu 
-                        lacus facilisis, eu aliquet lorem convallis.</p>
+                        <p>AGME is a booking system that allows customers to sign up to and create bookings for a particular business that is registered. 
+                        Users can sign up to access all kinds of product and service providers, ranging from vehicle repairs to hair stylists. 
+                        They can make a booking for an upcoming date, depending on the availability of the service and also choose the employee 
+                        they prefer to do the service for them. Subsequently, the employee’s and the business’ schedules are updated. 
+                        Business Owners also have the freedom to manage their employees and assign working hours.  </p>
                         <br></br>
 
                         <h2>IMBD</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nunc erat, auctor et dictum vel, 
-                        aliquet at lorem. Sed sit amet est fringilla, molestie eros at, auctor mauris. Integer id malesuada ligula. 
-                        In et porttitor libero. Donec velit felis, eleifend quis lacinia id, elementum sed felis. Pellentesque finibus 
-                        turpis ante, sit amet pellentesque lectus dapibus vel. Vestibulum sagittis, leo sit amet pharetra maximus, sem arcu 
-                        semper dui, at dictum justo dui eget tortor. Maecenas dapibus sapien ut ex viverra interdum. Aenean dictum ipsum eu 
-                        lacus facilisis, eu aliquet lorem convallis.</p>
+                        <p>IMBD contains information about various movies, actors, and other information about various programs available on the database.
+                         Users can sign up and view information about any movie on the website. Admins can manage any entry made into the website by adding, 
+                         removing or editing information about any movie or actor.</p>
                         <br></br>
                     </div>
                 </div>            
