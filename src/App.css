@@ -8,7 +8,10 @@ body{
   background-color: #0e0e0e;
   font-family: 'Rajdhani', sans-serif;
   font-size: 17px;
-  overflow: hidden;
+}
+
+body::-webkit-scrollbar{
+  display: none;
 }
 
 
