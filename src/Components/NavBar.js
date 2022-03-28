@@ -11,11 +11,11 @@ const Navbar=() => {
         </div>
         
         <div className="navigation animate__animated animate__fadeInUp animate__delay-2s">
-            <div className = "navElements"><Link className = "navA" to='landing' spy={true} smooth={true}>Home</Link></div>
-            <div className = "navElements"><Link className = "navA" to='aboutMe'spy={true} smooth={true}>About</Link></div>
-            <div className = "navElements"><Link className = "navA" to='skills' spy={true} smooth={true}>Skills</Link></div>
-            <div className = "navElements"><Link className = "navA" to='projects' spy={true} smooth={true}>Projects</Link></div>
-            <div className = "navElements"><Link className = "navA" to='experience' spy={true} smooth={true}>Experience</Link></div>
+            <div className = "navElements"><Link className = "navA navAHover" to='landing' spy={true} smooth={true}>Home</Link></div>
+            <div className = "navElements"><Link className = "navA navAHover" to='aboutMe'spy={true} smooth={true}>About</Link></div>
+            <div className = "navElements"><Link className = "navA navAHover" to='skills' spy={true} smooth={true}>Skills</Link></div>
+            <div className = "navElements"><Link className = "navA navAHover" to='projects' spy={true} smooth={true}>Projects</Link></div>
+            <div className = "navElements"><Link className = "navA navAHover" to='experience' spy={true} smooth={true}>Experience</Link></div>
         </div>
 
     </div>

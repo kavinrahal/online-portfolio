@@ -24,8 +24,7 @@
     width: 50%;
     display: flex;
     flex-direction: column;
-    margin-left: auto;
-    margin-right: auto;
+    margin-top: 5%;
 }
 
 .projectVertLine{
@@ -33,3 +32,131 @@
     border: none;
     margin-bottom: 20px;
 }
+
+.btn {
+    display:flex;
+    flex-direction:column;
+    transform: translate(-50%, -50%);
+    align-self: center;
+    padding: 25px;
+  }
+  
+  .btn::before,
+  .btn::after,
+  span::before,
+  span::after {
+      content: '';
+      position: absolute;
+      width: 8px;
+      height: 8px;
+      background: transparent;
+      transition: 1s;
+      /* -webkit-mix-blend-mode: hue; */
+  }
+  
+  .btn::before {
+      top: -2px;
+      left: -2px;
+      border-top: 2px solid orange;
+      border-left: 2px solid orange;
+  }
+  .btn::after {
+      top: -2px;
+      right: -2px;
+      border-top: 2px solid orange;
+      border-right: 2px solid orange;
+  }
+  
+  span::before {
+      bottom: -2px;
+      left: -2px;
+      border-bottom: 2px solid orange;
+      border-left: 2px solid orange;
+  }
+  span::after {
+      bottom: -2px;
+      right: -2px;
+      border-bottom: 2px solid orange;
+      border-right: 2px solid orange;
+  }
+  
+  
+  .btn:hover::before,
+  .btn:hover::after,
+  .btn:hover span::before,
+  .btn:hover span::after  {
+    width: 50%;
+    height: 50%;
+  }
+
+  .hvr-grow {
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.5s;
+    transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    transform: scale(1.05, 1.05);
+}
+
+.redirect{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 40px;
+    background-color: orange;
+    color: white;
+    text-decoration: none;
+}
+
+.redirectHover {
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    border-radius: 5px;
+    color: white;
+}
+
+.redirectHover:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: white;
+    color: orange;
+    border-style: none;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: 0 50%;
+    transform-origin: 0 50%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+.redirectHover:hover, .redirectHover:focus, .redirectHover:active {
+    color: orange;
+    border-radius: 5px;
+}
+
+.redirectHover:hover:before, .redirectHover:focus:before, .redirectHover:active:before {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+    border-radius: 5px;
+}
+

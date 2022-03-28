@@ -15,11 +15,12 @@ function Experience(){
             <div className = "column" id = "leftSide">
                 <div data-aos="fade-up" data-aos-duration="1000" className = "aboutText">
                     <h2>UI/UX Design and Development Intern</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nunc erat, auctor et dictum vel, aliquet at lorem. 
-                    Sed sit amet est fringilla, molestie eros at, auctor mauris. Integer id malesuada ligula. In et porttitor libero. 
-                    Donec velit felis, eleifend quis lacinia id, elementum sed felis. Pellentesque finibus turpis ante, sit amet pellentesque
-                     lectus dapibus vel. Vestibulum sagittis, leo sit amet pharetra maximus, sem arcu semper dui, at dictum justo dui eget tortor. 
-                     Maecenas dapibus sapien ut ex viverra interdum. Aenean dictum ipsum eu lacus facilisis, eu aliquet lorem convallis.
+                    <p>Duration: December 2020 - May 2021</p>
+                    <p>I worked with the main team in charge of creating the User Interfaces for all of Epic Lanka Technologies’ products. 
+                    I was in charge of working with the team to fine tune designs created by senior engineers and communicating with 
+                    business analysts in order to truly find the essence of what the application is set to achieve, by using design tools 
+                    such as Figma and Adobe Photoshop. Furthermore, I was also given the responsibility of developing certain components 
+                    of the Web Applications and Mobile Applications made as part of projects carried out by the company using AngularJS.
                     </p>
                     <img className = "epicLogo" src = {epicLogo}></img>
 
