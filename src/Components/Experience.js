@@ -13,7 +13,7 @@ function Experience(){
             </head>
             <script src="bower_components/aos/dist/aos.js"></script> 
             <div className = "column" id = "leftSide">
-                <div data-aos="fade-up" data-aos-duration="1000" className = "aboutText">
+                <div data-aos="fade-up" data-aos-duration="1000" className = "experienceText">
                     <h2>UI/UX Design and Development Intern</h2>
                     <p>Duration: December 2020 - May 2021</p>
                     <p>I worked with the main team in charge of creating the User Interfaces for all of Epic Lanka Technologies’ products. 
