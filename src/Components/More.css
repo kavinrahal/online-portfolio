@@ -33,3 +33,18 @@
 .rights{
     color: white;
 }
+
+@media (max-width: 880px){
+    .moreData{
+        margin-top: 100px;
+    }
+
+    .linksRow{
+        margin-bottom: 0px;
+        height: 70vh;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-top: 0px;
+    }
+}

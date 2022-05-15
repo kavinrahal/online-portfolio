@@ -22,7 +22,7 @@ function Skills2(){
             <script src="bower_components/aos/dist/aos.js"></script> 
             <div className = "column" id = "leftSide">
                 <div className = "skillsBox">
-                    <div className = "row" data-aos="fade-up" data-aos-duration="1000">
+                    <div className = "row mobileRow" data-aos="fade-up" data-aos-duration="1000">
                         <div className = "react">
                             <img className = "reactImgRotate" src = {reactImg}></img>
                             <div className = "skillTitle">React</div>
@@ -37,7 +37,7 @@ function Skills2(){
                         </div>
                     </div>
 
-                    <div className = "row" data-aos="fade-up" data-aos-duration="1000">
+                    <div className = "row mobileRow" data-aos="fade-up" data-aos-duration="1000">
                         <div className = "react">
                             <img className = "reactImg" src = {figma}></img>
                             <div className = "skillTitle">Figma</div>
@@ -52,7 +52,7 @@ function Skills2(){
                         </div>
                     </div>
 
-                    <div className = "row" data-aos="fade-up" data-aos-duration="1000">
+                    <div className = "row mobileRow" data-aos="fade-up" data-aos-duration="1000">
                         <div className = "react">
                             <img className = "androidImg" src = {android}></img>
                             <div className = "skillTitle">Android</div>
@@ -69,10 +69,10 @@ function Skills2(){
                 </div>
             </div>
 
-            <div className = "column" id = "rightSide">
+            <div className = "column mobileRight" id = "rightSide">
                 
                 <div className = "line">
-                    <hr data-aos="fade-up" data-aos-duration="1000" className = "vertLine" width = "1" size = "170"></hr>
+                    <hr data-aos="fade-up" data-aos-duration="1000" className = "vertLine skillsLine" width = "1" size = "170"></hr>
                 </div>
                 <div className = "deets">
                     <div data-aos="fade-up" data-aos-duration="1000" className = "titleAbout"><h1 className = "aboutMeText">SKILLS</h1></div>

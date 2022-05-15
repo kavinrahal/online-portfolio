@@ -91,3 +91,28 @@
     width: 100px;
     align-self: center;
 }
+
+@media (max-width: 880px){
+    .aboutMe {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        margin-top: 50px;
+        width: 100%;
+        background-color: rgb(14, 14, 14);
+    }
+
+    .deets{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        align-self: flex-start;
+    }
+
+
+}

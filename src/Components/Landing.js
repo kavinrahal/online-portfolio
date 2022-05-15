@@ -16,11 +16,11 @@ function Landing(){
         <link rel="stylesheet" href="bower_components/aos/dist/aos.css" />
         </head>
         <script src="bower_components/aos/dist/aos.js"></script> 
-            <div className = "column" id = "leftSide">
+            <div className = "column landingLeft" id = "leftSide">
                 <img className = "myPic animate__animated animate__fadeInUp animate__delay-2s"></img>
             </div>
 
-            <div className = "column" id  = "rightSide">
+            <div className = "column landingRight" id  = "rightSide">
                 <div className = "name animate__animated animate__fadeInUp animate__delay-2s" data-aos="fade-up" data-aos-duration="1000"><h1>KAVINDYA ABEYSINGHE</h1></div>
                 <div className = "frontend animate__animated animate__fadeInUp animate__delay-2s" data-aos="fade-up" data-aos-duration="1000">
                     <TypeAnimation

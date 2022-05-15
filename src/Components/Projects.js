@@ -12,7 +12,7 @@ function Projects(){
             </head>
             <script src="bower_components/aos/dist/aos.js"></script> 
             <div className='projectData'>
-                <div className = "projectRow">
+                <div className = "projectRow mobileProject">
                     <div className = "line">
                         <hr data-aos="fade-up" data-aos-duration="1000" className = "projectVertLine" width = "1" size = "170"></hr>
                     </div>

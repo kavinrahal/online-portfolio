@@ -231,3 +231,51 @@ label{
         animation: move3 2s cubic-bezier(.25,.1,.25,1);
     }
 }
+
+@media (max-width: 880px) {
+    .landing {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        height: 90vh;
+        width: 100%;
+    }
+
+    #rightSide{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-size: 15px;
+        height: 50%;
+    }
+
+    .myPic{
+        content: url('../Kavindya\ X.png');
+        width: 350px;
+        height: 350px;
+        display: flex;
+        align-self: flex-end;
+    }
+
+    .plusSignL{
+        padding-top: 100px;
+    }
+
+    .plusSignRT{
+        padding-top: 100px;
+    }
+
+    .landingLeft{
+        margin-top: 25%;
+    }
+
+    .landingRight{
+        margin-bottom: 25%;
+        align-items: center;
+    }
+}

@@ -28,7 +28,7 @@ function AboutMe(){
                     </p>
                 </div>
             </div>
-        </div>
+        </div> 
         
     );
 }
