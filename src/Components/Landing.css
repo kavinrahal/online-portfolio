@@ -236,10 +236,9 @@ label{
     .landing {
         display: flex;
         flex-direction: column;
-        flex-wrap: wrap;
         align-items: center;
         justify-content: center;
-        height: 90vh;
+        height: 90%;
         width: 100%;
     }
 
