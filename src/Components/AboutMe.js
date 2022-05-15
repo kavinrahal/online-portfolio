@@ -10,9 +10,9 @@ function AboutMe(){
                 <link rel="stylesheet" href="bower_components/aos/dist/aos.css" />
             </head>
             <script src="bower_components/aos/dist/aos.js"></script> 
-            <div className = "column" id = "leftSide">
+            <div className = "column aboutMeLeft" id = "leftSide">
                 <div className = "line">
-                    <hr data-aos="fade-up" data-aos-duration="1000" className = "vertLine" width = "1" size = "170"></hr>
+                    <hr data-aos="fade-up" data-aos-duration="1000" className = "vertLine aboutMeLine" width = "1" size = "170"></hr>
                 </div>
                 <div className = "deets">
                     <div data-aos="fade-up" data-aos-duration="1000" className = "titleAbout"><h1 className = "aboutMeText">ABOUT ME</h1></div>
