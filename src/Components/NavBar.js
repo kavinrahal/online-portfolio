@@ -10,7 +10,9 @@ const Navbar=() => {
     <div className = "navbar">
 
         <div className = "logo animate__animated animate__fadeInUp animate__delay-2s">
+          <Link to='landing' spy={true} smooth={true}>
           <img className = "logoimg"></img>
+          </Link>
         </div>
         
         <div className="navigation animate__animated animate__fadeInUp animate__delay-2s">
