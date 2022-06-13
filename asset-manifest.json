@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/online-portfolio/static/css/main.dbb36c75.chunk.css",
-    "main.js": "/online-portfolio/static/js/main.269f3087.chunk.js",
-    "main.js.map": "/online-portfolio/static/js/main.269f3087.chunk.js.map",
+    "main.js": "/online-portfolio/static/js/main.4b8c6721.chunk.js",
+    "main.js.map": "/online-portfolio/static/js/main.4b8c6721.chunk.js.map",
     "runtime-main.js": "/online-portfolio/static/js/runtime-main.0680f9ec.js",
     "runtime-main.js.map": "/online-portfolio/static/js/runtime-main.0680f9ec.js.map",
     "static/css/2.ec02d681.chunk.css": "/online-portfolio/static/css/2.ec02d681.chunk.css",
@@ -17,15 +17,16 @@
     "static/media/NavBar.css": "/online-portfolio/static/media/KA biob.5eaa4a1f.png",
     "static/media/KAvin react.8bf51d9e.png": "/online-portfolio/static/media/KAvin react.8bf51d9e.png",
     "static/media/Landing.css": "/online-portfolio/static/media/Kavindya X.9cb7e752.png",
-    "static/media/android.4ea78d1f.png": "/online-portfolio/static/media/android.4ea78d1f.png",
+    "static/media/asp.4f4a53fb.png": "/online-portfolio/static/media/asp.4f4a53fb.png",
     "static/media/AboutMe.css": "/online-portfolio/static/media/clip2.87f925cd.png",
     "static/media/express.9f188a5c.png": "/online-portfolio/static/media/express.9f188a5c.png",
     "static/media/facebook.180f82a3.png": "/online-portfolio/static/media/facebook.180f82a3.png",
-    "static/media/figma.29a04ef4.png": "/online-portfolio/static/media/figma.29a04ef4.png",
     "static/media/git.538754a8.png": "/online-portfolio/static/media/git.538754a8.png",
     "static/media/github.cc64b151.png": "/online-portfolio/static/media/github.cc64b151.png",
-    "static/media/insta.6687a3b8.png": "/online-portfolio/static/media/insta.6687a3b8.png",
+    "static/media/instagram.6687a3b8.png": "/online-portfolio/static/media/instagram.6687a3b8.png",
+    "static/media/java.141ddd1e.png": "/online-portfolio/static/media/java.141ddd1e.png",
     "static/media/linkedin.7bb8348c.png": "/online-portfolio/static/media/linkedin.7bb8348c.png",
+    "static/media/mongodb.081d32d0.png": "/online-portfolio/static/media/mongodb.081d32d0.png",
     "static/media/photoshop.57142b51.png": "/online-portfolio/static/media/photoshop.57142b51.png",
     "static/media/react-native.d51e3fdf.png": "/online-portfolio/static/media/react-native.d51e3fdf.png"
   },
@@ -34,6 +35,6 @@
     "static/css/2.ec02d681.chunk.css",
     "static/js/2.1c0ab9dd.chunk.js",
     "static/css/main.dbb36c75.chunk.css",
-    "static/js/main.269f3087.chunk.js"
+    "static/js/main.4b8c6721.chunk.js"
   ]
 }
