@@ -6,7 +6,7 @@ import 'aos/dist/aos.css';
 import linkedIn from '../linkedin.png';
 import gitHub from '../github.png';
 import facebook from '../facebook.png';
-import insta from '../insta.png';
+import instagram from '../instagram.png';
 
 function More(){
     AOS.init();
@@ -24,9 +24,9 @@ function More(){
                     <a href = "https://www.linkedin.com/in/kavinrahal/" target="_blank" rel="noopener noreferrer"><img className='logoImg' src = {linkedIn}/></a>
                     <a href = "https://github.com/kavinrahal" target="_blank" rel="noopener noreferrer"><img className='logoImg' src = {gitHub}/></a>
                     <a href = "https://www.facebook.com/kavindya.abeysinghe.1/" target="_blank" rel="noopener noreferrer"><img className='logoImg' src = {facebook}/></a>
-                    <a href = "https://www.instagram.com/freeekonaleash/" target="_blank" rel="noopener noreferrer"><img className='logoImg' src = {insta}/></a>
+                    <a href = "https://www.instagram.com/freeekonaleash/" target="_blank" rel="noopener noreferrer"><img className='logoImg' src = {instagram}/></a>
                 </div>
-                <p className='rights'>© Kavindya Abeysinghe 2022. All rights reserved.</p>
+                <p className='rights'>© Kavindya Abeysinghe 2024. All rights reserved.</p>
             </div>
         </div>
     );

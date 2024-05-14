@@ -26,7 +26,11 @@ function Landing(){
                     <TypeAnimation
                         cursor={true}
                         sequence={[
+                        'Full-Stack Developer',
+                        2000,
                         'Front-End Developer',
+                        2000,
+                        'Back-End Developer',
                         2000,
                         'Web Developer',
                         2000,

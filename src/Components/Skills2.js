@@ -4,13 +4,17 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import reactImg from '../KAvin react.png';
 import nativeImg from '../react-native.png';
-import figma from '../figma.png';
 import python from '../python.png';
 import mysql from '../sql.png';
-import android from '../android.png';
 import git from '../git.png';
 import photoshop from '../photoshop.png';
 import express from '../express.png';
+import asp from '../asp.png';
+import mongo from '../mongodb.png';
+import java from '../java.png';
+import graphql from '../graphql.png';
+import azure from '../azure.png';
+import nextjs from '../nextjs.png';
 
 function Skills2(){
     AOS.init();
@@ -28,19 +32,19 @@ function Skills2(){
                             <div className = "skillTitle">React</div>
                         </div>
                         <div className = "react">
-                            <img className = "reactImg" src = {express}></img>
-                            <div className = "skillTitle">Express</div>
+                            <img className = "reactImg" src = {graphql}></img>
+                            <div className = "skillTitle">GraphQL</div>
                         </div>
                         <div className = "react">
-                            <img className = "reactImg" src = {nativeImg}></img>
-                            <div className = "skillTitle">React Native</div>
+                            <img className = "reactImg" src = {asp}></img>
+                            <div className = "skillTitle">ASP.NET Core</div>
                         </div>
                     </div>
 
                     <div className = "row mobileRow" data-aos="fade-up" data-aos-duration="1000">
                         <div className = "react">
-                            <img className = "reactImg" src = {figma}></img>
-                            <div className = "skillTitle">Figma</div>
+                            <img className = "reactImg" src = {nextjs}></img>
+                            <div className = "skillTitle">Next.js</div>
                         </div>
                         <div className = "react">
                             <img className = "reactImg" src = {python}></img>
@@ -54,16 +58,16 @@ function Skills2(){
 
                     <div className = "row mobileRow" data-aos="fade-up" data-aos-duration="1000">
                         <div className = "react">
-                            <img className = "androidImg" src = {android}></img>
-                            <div className = "skillTitle">Android</div>
+                            <img className = "reactImg" src = {azure}></img>
+                            <div className = "skillTitle">Azure</div>
                         </div>
                         <div className = "react">
                             <img className = "reactImg" src = {git}></img>
                             <div className = "skillTitle">Git</div>
                         </div>
                         <div className = "react">
-                            <img className = "reactImg" src = {photoshop}></img>
-                            <div className = "skillTitle">Photoshop</div>
+                            <img className = "reactImg" src = {java}></img>
+                            <div className = "skillTitle">Java</div>
                         </div>
                     </div>
                 </div>
