@@ -34,7 +34,7 @@ function Landing(){
                         2000,
                         'Web Developer',
                         2000,
-                        'UI/UX Designer',
+                        'Software Engineer',
                         2000,
                         ]}
                         wrapper="label"
