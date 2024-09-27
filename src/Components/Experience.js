@@ -16,8 +16,8 @@ function Experience(){
             <div className = "column leftSide" id = "leftSide">
             <div data-aos="fade-up" data-aos-duration="1000" className = "experienceText">
                     <h2>Full Stack Software Engineer</h2>
-                    <p>Duration: July 2022 - July 2024</p>
-                    <p>I was primarily part of the Payments team at Kolmeo, which handled $15 - 20 million dollars in transactions every week. 
+                    <p>Duration: July 2022 - June 2024</p>
+                    <p>I was primarily part of the Payments team at Kolmeo, which handled $5 - 6 million dollars in transactions every week. 
                     I contributed heavily towards various features such as Invoice Optimization, Improving EOFY statements and Owner Payment Advice generation.
                     Furthermore, I was also part of the Integrations team, of which I was one of the initiating members of. Here, I helped Kolmeo to integrate with
                     all kinds of 3rd party services such REA (Real Estate Australia), Snug, and Domain.com.
