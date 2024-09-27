@@ -110,7 +110,6 @@
     color: black;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
     color: white;
 }
 
