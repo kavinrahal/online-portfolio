@@ -18,7 +18,7 @@ function Projects(){
                     </div>
                     <div className = "deets">
                         <div data-aos="fade-up" data-aos-duration="1000" className = "titleAbout"><h1 className = "aboutMeText">PROJECTS</h1></div>
-                        <img data-aos="fade-up" data-aos-duration="1000" className = "aboutImg"></img>
+                        <img data-aos="fade-up" data-aos-duration="1000" className = "aboutImg" alt=""></img>
                     </div>
                 </div>
 
@@ -27,15 +27,28 @@ function Projects(){
 
                         <div className='btn hvr-grow'>
                             <span></span>
-                            <h2>Vibe Check</h2>
-                            <p>A Social Network for university students to interact with each other during the COVID-19 pandemic. 
-                            Students can sign up and login to share their thoughts and share pictures alongside. Furthermore, just 
-                            like any social network, users can like and dislike other users’ posts and follow and unfollow other users
-                            as well. </p>
-                            <a className='redirect redirectHover' href='https://github.com/rmit-fwp-s2-2021/vibe-check-s3756717' target="_blank" rel="noopener noreferrer">Go to Github</a>
-                            
+                            <h2>Job Search Agent</h2>
+                            <p>An always on, agentic system that manages my job search end to end. It monitors Gmail for job related emails, discovers
+                            and evaluates postings against a configurable set of criteria, and generates tailored CVs and cover letters on demand, all
+                            surfaced through a Telegram bot and a React dashboard. Built with a C# and ASP.NET Core API and worker service, a React,
+                            TypeScript, and Tailwind frontend, and PostgreSQL for storage, with every agent behaviour defined in markdown skill files
+                            that both services read from at runtime and driven end to end by Claude through the Anthropic SDK for email classification,
+                            job evaluation, and content generation. This is the project I’m most proud of when it comes to agent driven development,
+                            designing and orchestrating AI agents that reason over real tasks rather than just generate text.</p>
+                            <a className='redirect redirectHover' href='https://github.com/kavinrahal/job-search-agent' target="_blank" rel="noopener noreferrer">Go to Github</a>
+                        </div>
+                        <br></br>
+                        <br></br>
+                        <br></br>
+                        <br></br>
 
-                            
+                        <div className='btn hvr-grow'>
+                            <span></span>
+                            <h2>Hide&Seek</h2>
+                            <p>As the name suggests, a hide and seek game taken to the next level, where users can sign up and play hide and seek in large
+                            public spaces with a defined play area that shrinks over time. Uses a React based frontend, an ExpressJS backend with web socket
+                            functionality, and the Google Maps API to define play areas, track players, mark hiders as found, and alert hiders when a seeker
+                            is nearby. A React Native mobile app is planned.</p>
                         </div>
                         <br></br>
                         <br></br>
@@ -45,43 +58,14 @@ function Projects(){
                         <div className='btn hvr-grow'>
                             <span></span>
                             <h2>CarShareScheme</h2>
-                            <p>Car renting made ever so easy. CarShareScheme was made as part of my Final Year Project, where I was in charge of 
-                            designing and developing the front end of the Web Application. CarShareScheme allows users to book a vehicle within their 
-                            vicinity, based on their liking and get directions to it using Google maps. Vehicles can be used for the period they have booked it 
-                            for, after which they must return the vehicle by stopping the vehicle in a safe area and ending their trip in order to make their 
-                            payment through a medium they prefer.</p>
+                            <p>Car renting made ever so easy. CarShareScheme was made as part of my Final Year Project, where I was in charge of
+                            designing and developing the front end of the Web Application. CarShareScheme allows users to book a vehicle within their
+                            vicinity, based on their liking and get directions to it using Google maps. Vehicles can be used for the period they have booked it
+                            for, after which they must return the vehicle by stopping the vehicle in a safe area and ending their trip in order to make their
+                            payment through a medium they prefer. I also contributed to the ASP.NET Core backend and helped host the application on an Azure
+                            Cloud Server, which meant self learning ASP.NET Core in a four week period.</p>
                             <a className='redirect redirectHover' href='https://github.com/kavinrahal/PP1-MON1630-Team6' target="_blank" rel="noopener noreferrer">Go to Github</a>
-                            
-                        </div>
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                        <br></br>
 
-                        <div className='btn hvr-grow'>
-                            <span></span>   
-                            <h2>AGME</h2>
-                            <p>AGME is a booking system that allows customers to sign up to and create bookings for a particular business that is registered. 
-                            Users can sign up to access all kinds of product and service providers, ranging from vehicle repairs to hair stylists. 
-                            They can make a booking for an upcoming date, depending on the availability of the service and also choose the employee 
-                            they prefer to do the service for them. Subsequently, the employee’s and the business’ schedules are updated. 
-                            Business Owners also have the freedom to manage their employees and assign working hours.  </p>
-                            <a className='redirect redirectHover' href='https://github.com/isys1118-sef2020/team-project-mk-pacga' target="_blank" rel="noopener noreferrer">Go to Github</a>
-                            
-                        </div>
-                        <br></br>
-                        <br></br>
-                        <br></br>
-                        <br></br>
-
-                        <div className='btn hvr-grow'>
-                            <span></span>
-                            <h2>IMBD</h2>
-                            <p>IMBD contains information about various movies, actors, and other information about various programs available on the database.
-                            Users can sign up and view information about any movie on the website. Admins can manage any entry made into the website by adding, 
-                            removing or editing information about any movie or actor.</p>
-                            <a className='redirect redirectHover' href='https://github.com/RMIT-SEPT/majorproject-8-mon-17-30-5' target="_blank" rel="noopener noreferrer">Go to Github</a>
-                            
                         </div>
                         <br></br>
                     </div>

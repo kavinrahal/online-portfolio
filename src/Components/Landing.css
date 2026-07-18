@@ -206,6 +206,26 @@ label{
     align-self: flex-end;
 }
 
+.name h1{
+    margin-bottom: 0;
+}
+
+.nameLine{
+    background-color: orange;
+    border: none;
+    height: 3px;
+    width: 250px;
+    margin: 5px auto;
+}
+
+.nameClip{
+    content: url('../clip2.png');
+    width: 250px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
 @media(min-height:924px){
     .plusSignL
     {

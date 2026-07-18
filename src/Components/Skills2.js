@@ -3,15 +3,11 @@ import './Skills.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import reactImg from '../KAvin react.png';
-import nativeImg from '../react-native.png';
-import python from '../python.png';
+import postgresql from '../postgresql-icon.png';
 import mysql from '../sql.png';
 import git from '../git.png';
-import photoshop from '../photoshop.png';
-import express from '../express.png';
 import asp from '../asp.png';
-import mongo from '../mongodb.png';
-import java from '../java.png';
+import claudeCode from '../claude-code.png';
 import graphql from '../graphql.png';
 import azure from '../azure.png';
 import nextjs from '../nextjs.png';
@@ -28,46 +24,46 @@ function Skills2(){
                 <div className = "skillsBox">
                     <div className = "row mobileRow" data-aos="fade-up" data-aos-duration="1000">
                         <div className = "react">
-                            <img className = "reactImgRotate" src = {reactImg}></img>
+                            <img className = "reactImg" src = {asp} alt="ASP.NET Core"></img>
+                            <div className = "skillTitle">ASP.NET Core</div>
+                        </div>
+                        <div className = "react">
+                            <img className = "reactImgRotate" src = {reactImg} alt="React"></img>
                             <div className = "skillTitle">React</div>
                         </div>
                         <div className = "react">
-                            <img className = "reactImg" src = {graphql}></img>
-                            <div className = "skillTitle">GraphQL</div>
-                        </div>
-                        <div className = "react">
-                            <img className = "reactImg" src = {asp}></img>
-                            <div className = "skillTitle">ASP.NET Core</div>
-                        </div>
-                    </div>
-
-                    <div className = "row mobileRow" data-aos="fade-up" data-aos-duration="1000">
-                        <div className = "react">
-                            <img className = "reactImg" src = {nextjs}></img>
-                            <div className = "skillTitle">Next.js</div>
-                        </div>
-                        <div className = "react">
-                            <img className = "reactImg" src = {python}></img>
-                            <div className = "skillTitle">Python</div>
-                        </div>
-                        <div className = "react">
-                            <img className = "reactImg" src = {mysql}></img>
+                            <img className = "reactImg" src = {mysql} alt="MySQL"></img>
                             <div className = "skillTitle">MySQL</div>
                         </div>
                     </div>
 
                     <div className = "row mobileRow" data-aos="fade-up" data-aos-duration="1000">
                         <div className = "react">
-                            <img className = "reactImg" src = {azure}></img>
+                            <img className = "reactImg" src = {postgresql} alt="PostgreSQL"></img>
+                            <div className = "skillTitle">PostgreSQL</div>
+                        </div>
+                        <div className = "react">
+                            <img className = "reactImg" src = {azure} alt="Azure"></img>
                             <div className = "skillTitle">Azure</div>
                         </div>
                         <div className = "react">
-                            <img className = "reactImg" src = {git}></img>
+                            <img className = "reactImg" src = {git} alt="Git"></img>
                             <div className = "skillTitle">Git</div>
                         </div>
+                    </div>
+
+                    <div className = "row mobileRow" data-aos="fade-up" data-aos-duration="1000">
                         <div className = "react">
-                            <img className = "reactImg" src = {java}></img>
-                            <div className = "skillTitle">Java</div>
+                            <img className = "reactImg" src = {claudeCode} alt="Claude Code"></img>
+                            <div className = "skillTitle">Claude Code</div>
+                        </div>
+                        <div className = "react">
+                            <img className = "reactImg" src = {graphql} alt="GraphQL"></img>
+                            <div className = "skillTitle">GraphQL</div>
+                        </div>
+                        <div className = "react">
+                            <img className = "reactImg" src = {nextjs} alt="Next.js"></img>
+                            <div className = "skillTitle">Next.js</div>
                         </div>
                     </div>
                 </div>
@@ -80,7 +76,7 @@ function Skills2(){
                 </div>
                 <div className = "deets">
                     <div data-aos="fade-up" data-aos-duration="1000" className = "titleAbout"><h1 className = "aboutMeText">SKILLS</h1></div>
-                    <img data-aos="fade-up" data-aos-duration="1000" className = "aboutImg"></img>
+                    <img data-aos="fade-up" data-aos-duration="1000" className = "aboutImg" alt=""></img>
                 </div>
             </div>
         </div>

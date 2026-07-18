@@ -1,4 +1,4 @@
-import React,{useEffect} from 'react';
+import React from 'react';
 import { useState } from "react"
 import {Link} from 'react-scroll'
 import './NavBar.css';
@@ -11,7 +11,7 @@ const Navbar=() => {
 
         <div className = "logo animate__animated animate__fadeInUp animate__delay-2s">
           <Link to='landing' spy={true} smooth={true}>
-            <img className = "logoimg"></img>
+            <img className = "logoimg" alt=""></img>
           </Link>
         </div>
         

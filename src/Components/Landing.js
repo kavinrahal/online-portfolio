@@ -1,5 +1,5 @@
 import './Landing.css';
-import { Icon, InlineIcon } from '@iconify/react';
+import { Icon } from '@iconify/react';
 import heavyMultiplicationX from '@iconify-icons/emojione-monotone/heavy-multiplication-x';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -16,12 +16,12 @@ function Landing(){
         <link rel="stylesheet" href="bower_components/aos/dist/aos.css" />
         </head>
         <script src="bower_components/aos/dist/aos.js"></script> 
-            <div className = "column landingLeft" id = "leftSide">
-                <img className = "myPic animate__animated animate__fadeInUp animate__delay-2s"></img>
-            </div>
-
             <div className = "column landingRight" id  = "rightSide">
-                <div className = "name animate__animated animate__fadeInUp animate__delay-2s" data-aos="fade-up" data-aos-duration="1000"><h1>KAVINDYA ABEYSINGHE</h1></div>
+                <div className = "name animate__animated animate__fadeInUp animate__delay-2s" data-aos="fade-up" data-aos-duration="1000">
+                    <h1>KAVIN ABEYSINGHE</h1>
+                    <hr className = "nameLine"></hr>
+                    <img className = "nameClip" alt=""></img>
+                </div>
                 <div className = "frontend animate__animated animate__fadeInUp animate__delay-2s" data-aos="fade-up" data-aos-duration="1000">
                     <TypeAnimation
                         cursor={true}
@@ -32,9 +32,9 @@ function Landing(){
                         2000,
                         'Back-End Developer',
                         2000,
-                        'Web Developer',
-                        2000,
                         'Software Engineer',
+                        2000,
+                        'Agentic AI Developer',
                         2000,
                         ]}
                         wrapper="label"
