@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/online-portfolio/static/css/main.bdbf20b8.chunk.css",
-    "main.js": "/online-portfolio/static/js/main.bde963a2.chunk.js",
-    "main.js.map": "/online-portfolio/static/js/main.bde963a2.chunk.js.map",
+    "main.css": "/online-portfolio/static/css/main.1af607f0.chunk.css",
+    "main.js": "/online-portfolio/static/js/main.59fd5673.chunk.js",
+    "main.js.map": "/online-portfolio/static/js/main.59fd5673.chunk.js.map",
     "runtime-main.js": "/online-portfolio/static/js/runtime-main.00ad9cf8.js",
     "runtime-main.js.map": "/online-portfolio/static/js/runtime-main.00ad9cf8.js.map",
     "static/css/2.ec02d681.chunk.css": "/online-portfolio/static/css/2.ec02d681.chunk.css",
-    "static/js/2.2647307e.chunk.js": "/online-portfolio/static/js/2.2647307e.chunk.js",
-    "static/js/2.2647307e.chunk.js.map": "/online-portfolio/static/js/2.2647307e.chunk.js.map",
+    "static/js/2.8cae5ca5.chunk.js": "/online-portfolio/static/js/2.8cae5ca5.chunk.js",
+    "static/js/2.8cae5ca5.chunk.js.map": "/online-portfolio/static/js/2.8cae5ca5.chunk.js.map",
     "static/js/3.5741a435.chunk.js": "/online-portfolio/static/js/3.5741a435.chunk.js",
     "static/js/3.5741a435.chunk.js.map": "/online-portfolio/static/js/3.5741a435.chunk.js.map",
     "index.html": "/online-portfolio/index.html",
     "static/css/2.ec02d681.chunk.css.map": "/online-portfolio/static/css/2.ec02d681.chunk.css.map",
-    "static/css/main.bdbf20b8.chunk.css.map": "/online-portfolio/static/css/main.bdbf20b8.chunk.css.map",
-    "static/js/2.2647307e.chunk.js.LICENSE.txt": "/online-portfolio/static/js/2.2647307e.chunk.js.LICENSE.txt",
+    "static/css/main.1af607f0.chunk.css.map": "/online-portfolio/static/css/main.1af607f0.chunk.css.map",
+    "static/js/2.8cae5ca5.chunk.js.LICENSE.txt": "/online-portfolio/static/js/2.8cae5ca5.chunk.js.LICENSE.txt",
     "static/media/NavBar.css": "/online-portfolio/static/media/KA biob.5eaa4a1f.png",
     "static/media/KAvin react.8bf51d9e.png": "/online-portfolio/static/media/KAvin react.8bf51d9e.png",
     "static/media/Landing.css": "/online-portfolio/static/media/clip2.87f925cd.png",
@@ -32,8 +32,8 @@
   "entrypoints": [
     "static/js/runtime-main.00ad9cf8.js",
     "static/css/2.ec02d681.chunk.css",
-    "static/js/2.2647307e.chunk.js",
-    "static/css/main.bdbf20b8.chunk.css",
-    "static/js/main.bde963a2.chunk.js"
+    "static/js/2.8cae5ca5.chunk.js",
+    "static/css/main.1af607f0.chunk.css",
+    "static/js/main.59fd5673.chunk.js"
   ]
 }
