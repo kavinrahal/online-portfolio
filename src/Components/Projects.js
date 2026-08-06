@@ -57,14 +57,13 @@ function Projects(){
 
                         <div className='btn hvr-grow'>
                             <span></span>
-                            <h2>CarShareScheme</h2>
-                            <p>Car renting made ever so easy. CarShareScheme was made as part of my Final Year Project, where I was in charge of
-                            designing and developing the front end of the Web Application. CarShareScheme allows users to book a vehicle within their
-                            vicinity, based on their liking and get directions to it using Google maps. Vehicles can be used for the period they have booked it
-                            for, after which they must return the vehicle by stopping the vehicle in a safe area and ending their trip in order to make their
-                            payment through a medium they prefer. I also contributed to the ASP.NET Core backend and helped host the application on an Azure
-                            Cloud Server, which meant self learning ASP.NET Core in a four week period.</p>
-                            <a className='redirect redirectHover' href='https://github.com/kavinrahal/PP1-MON1630-Team6' target="_blank" rel="noopener noreferrer">Go to Github</a>
+                            <h2>My Home Is Alive</h2>
+                            <p>AI driven, occupancy and preference aware home automation, delivered as a service. Rather than relying on manual rules
+                            or fixed schedules, it learns household patterns and adjusts the home automatically. Built as a clean architecture ASP.NET
+                            Core backend with domain, application, and infrastructure layers, a React, Vite, TypeScript, and Tailwind frontend talking
+                            to the API over REST and JWT, and a Python layer handling device and MQTT hardware integration, with a Node.js simulator
+                            standing in for real sensor data during development. A React Native mobile app is planned.</p>
+                            <a className='redirect redirectHover' href='https://github.com/kavinrahal/my-home-is-alive' target="_blank" rel="noopener noreferrer">Go to Github</a>
 
                         </div>
                         <br></br>

@@ -10,17 +10,17 @@ const Navbar=() => {
     <div className = "navbar">
 
         <div className = "logo animate__animated animate__fadeInUp animate__delay-2s">
-          <Link to='landing' spy={true} smooth={true}>
+          <Link to='landing' spy={true} smooth={true} offset={-100}>
             <img className = "logoimg" alt=""></img>
           </Link>
         </div>
-        
+
         <div className="navigation animate__animated animate__fadeInUp animate__delay-2s">
-            <div className = "navElements"><Link className = "navA navAHover" to='landing' spy={true} smooth={true}>Home</Link></div>
-            <div className = "navElements"><Link className = "navA navAHover" to='aboutMe' spy={true} smooth={true}>About</Link></div>
-            <div className = "navElements"><Link className = "navA navAHover" to='skills' spy={true} smooth={true}>Skills</Link></div>
-            <div className = "navElements"><Link className = "navA navAHover" to='projects' spy={true} smooth={true}>Projects</Link></div>
-            <div className = "navElements"><Link className = "navA navAHover" to='experience' spy={true} smooth={true}>Experience</Link></div>
+            <div className = "navElements"><Link className = "navA navAHover" to='landing' spy={true} smooth={true} offset={-100}>Home</Link></div>
+            <div className = "navElements"><Link className = "navA navAHover" to='aboutMe' spy={true} smooth={true} offset={-100}>About</Link></div>
+            <div className = "navElements"><Link className = "navA navAHover" to='skills' spy={true} smooth={true} offset={-100}>Skills</Link></div>
+            <div className = "navElements"><Link className = "navA navAHover" to='projects' spy={true} smooth={true} offset={-100}>Projects</Link></div>
+            <div className = "navElements"><Link className = "navA navAHover" to='experience' spy={true} smooth={true} offset={-100}>Experience</Link></div>
         </div>
 
         <div className='collapsedNav animate__animated animate__fadeInUp animate__delay-2s'>
@@ -44,11 +44,11 @@ const Navbar=() => {
             </svg>
           </button>
           <div className={isNavExpanded ? "expanded" : "navigation-menu"}>
-            <div className = "navElements"><Link className = "navA navAHover" to='landing' spy={true} smooth={true} onClick={() => {setIsNavExpanded(!isNavExpanded)}}>Home</Link></div>
-            <div className = "navElements" ><Link className = "navA navAHover" to='aboutMe'spy={true} smooth={true} onClick={() => {setIsNavExpanded(!isNavExpanded)}}>About</Link></div>
-            <div className = "navElements"><Link className = "navA navAHover" to='skills' spy={true} smooth={true} onClick={() => {setIsNavExpanded(!isNavExpanded)}}>Skills</Link></div>
-            <div className = "navElements"><Link className = "navA navAHover" to='projects' spy={true} smooth={true} onClick={() => {setIsNavExpanded(!isNavExpanded)}}>Projects</Link></div>
-            <div className = "navElements"><Link className = "navA navAHover" to='experience' spy={true} smooth={true} onClick={() => {setIsNavExpanded(!isNavExpanded)}}>Experience</Link></div>
+            <div className = "navElements"><Link className = "navA navAHover" to='landing' spy={true} smooth={true} offset={-100} onClick={() => {setIsNavExpanded(!isNavExpanded)}}>Home</Link></div>
+            <div className = "navElements" ><Link className = "navA navAHover" to='aboutMe' spy={true} smooth={true} offset={-100} onClick={() => {setIsNavExpanded(!isNavExpanded)}}>About</Link></div>
+            <div className = "navElements"><Link className = "navA navAHover" to='skills' spy={true} smooth={true} offset={-100} onClick={() => {setIsNavExpanded(!isNavExpanded)}}>Skills</Link></div>
+            <div className = "navElements"><Link className = "navA navAHover" to='projects' spy={true} smooth={true} offset={-100} onClick={() => {setIsNavExpanded(!isNavExpanded)}}>Projects</Link></div>
+            <div className = "navElements"><Link className = "navA navAHover" to='experience' spy={true} smooth={true} offset={-100} onClick={() => {setIsNavExpanded(!isNavExpanded)}}>Experience</Link></div>
           </div>
         </div>
 

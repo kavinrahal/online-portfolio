@@ -1,5 +1,6 @@
 import './AboutMe.css';
 import './Skills.css';
+import './Projects.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import reactImg from '../KAvin react.png';
@@ -19,8 +20,18 @@ function Skills2(){
             <head>
                 <link rel="stylesheet" href="bower_components/aos/dist/aos.css" />
             </head>
-            <script src="bower_components/aos/dist/aos.js"></script> 
-            <div className = "column" id = "leftSide">
+            <script src="bower_components/aos/dist/aos.js"></script>
+            <div className = "projectRow mobileProject">
+                <div className = "line">
+                    <hr data-aos="fade-up" data-aos-duration="1000" className = "projectVertLine" width = "1" size = "170"></hr>
+                </div>
+                <div className = "deets">
+                    <div data-aos="fade-up" data-aos-duration="1000" className = "titleAbout"><h1 className = "aboutMeText">SKILLS</h1></div>
+                    <img data-aos="fade-up" data-aos-duration="1000" className = "aboutImg" alt=""></img>
+                </div>
+            </div>
+
+            <div className = "projectRow">
                 <div className = "skillsBox">
                     <div className = "row mobileRow" data-aos="fade-up" data-aos-duration="1000">
                         <div className = "react">
@@ -68,19 +79,8 @@ function Skills2(){
                     </div>
                 </div>
             </div>
-
-            <div className = "column mobileRight" id = "rightSide">
-                
-                <div className = "line">
-                    <hr data-aos="fade-up" data-aos-duration="1000" className = "vertLine skillsLine" width = "1" size = "170"></hr>
-                </div>
-                <div className = "deets">
-                    <div data-aos="fade-up" data-aos-duration="1000" className = "titleAbout"><h1 className = "aboutMeText">SKILLS</h1></div>
-                    <img data-aos="fade-up" data-aos-duration="1000" className = "aboutImg" alt=""></img>
-                </div>
-            </div>
         </div>
-        
+
     );
 }
 
